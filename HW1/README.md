@@ -18,8 +18,8 @@ There are two python scripts:
 
 | Script | Purpose |
 |--------|---------|
-| `img2txt.py` | Image  Base64 text |
-| `txt2img.py` | Base64 text  Image |
+| `img2txt.py` | Image  to Base64 text |
+| `txt2img.py` | Base64 text  to Image |
 
 ## Example
 
