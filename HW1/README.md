@@ -1,12 +1,13 @@
 # Instructions how to convert images to base64 text and back.
 
-#How It Works
+# How It Works
 Base64 encoding converts binary image data to ASCII text. Each 3 bytes are converted to  4 ASCII characters.
 It is safe for text storage/transmission and fully reversible
 
-#Requirements
+# Requirements
 
 Python 3.x
+
 No external packages needed
 
 
@@ -25,5 +26,10 @@ There are two python scripts:
 ### Image to Text
 ```bash
 python img2txt.py screenshot.png
-# Creates: screenshot.txt
+# Saved: screenshot.txt
 
+### Text to Image
+
+```bash
+python txt2img.py screenshot.txt
+# Restored: screenshot.restored.png
