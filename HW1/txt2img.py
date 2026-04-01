@@ -16,4 +16,4 @@ with open(input_file, "r") as text_file:
 with open(output_file, "wb") as image_file:
     image_file.write(base64.b64decode(encoded_string))
 
-print(f"Восстановлено: {output_file}")
+print(f"Restored: {output_file}")
